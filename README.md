@@ -4,13 +4,17 @@ This Repository uses R to perform interpolation procedure on input data of type 
   1. Inverse Distance Weighted (IDW)
   2. Thin Plate Spline (TPS)
   3. Nearest Neighbor (NN)
-  4. Ordinary Kriging
+  4. Ordinary Kriging (OK)
 
 ## Data Input
 Data used for this project is about water quality. Surface water Quality and Ground water quality collected across India and particulally area in:
+1. **Spatial Data**
   1. Uttar Pradesh.shp
   2. Madhya Pradesh.shp
   3. Andhya Pradesh.shp
+2. **Non-Spatial Data**
+  1. Surface water quality (.csv/.xlsx)
+  2. Ground water quality (.csv/.xlsx)
 
 ## Libraries used
 The following libraries were used for data cleaning, analysis and visualization:
