@@ -278,5 +278,4 @@ K.rmse <- sqrt(sum((K.cv$var1.pred - K.cv$observed)^2) / nrow(K.cv))
 K.rmse
 cat('The RMSE for Sodium is: ',Na.rmse,'and for Potassium is: ',K.rmse)
 
-##ENSEMBLE
-#~CANT RELATE TO VARIABLE BEING USED IN THE REFERENCE
+
